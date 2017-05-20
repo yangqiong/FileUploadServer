@@ -1,0 +1,19 @@
+{
+  "name": "image_upload_server",
+  "version": "0.0.1",
+  "description": "基于腾讯云COS的文件上传服务",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cos-nodejs-sdk-v5": "git+https://github.com/tencentyun/cos-nodejs-sdk-v5.git",
+    "express": "^4.15.3",
+    "md5": "^2.2.1",
+    "morgan": "^1.8.1",
+    "multer": "^1.3.0",
+    "request": "^2.81.0"
+  }
+}
